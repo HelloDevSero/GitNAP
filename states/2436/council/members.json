@@ -1,0 +1,41 @@
+{
+  "last_updated": "2025-09-26T08:05:00Z",
+  "updated_by": "State Council",
+  "authentication_method": "player_id_verification",
+  "total_eligible_voters": 25,
+  "total_vote_weight": 52,
+  "members": [
+    {
+      "player_id": "EXAMPLE_ID_1",
+      "player_name": "CommanderAlpha",
+      "alliance_name": "Elite Warriors",
+      "alliance_rank": 1,
+      "role": "R5",
+      "vote_weight": 3,
+      "contact_discord": "CommanderAlpha#1234",
+      "status": "active",
+      "joined_council": "2025-01-15"
+    },
+    {
+      "player_id": "EXAMPLE_ID_2",
+      "player_name": "TacticalBeta",
+      "alliance_name": "Storm Riders",
+      "alliance_rank": 2,
+      "role": "R4",
+      "vote_weight": 3,
+      "contact_discord": "TacticalBeta#5678",
+      "status": "active",
+      "joined_council": "2025-02-01"
+    }
+  ],
+  "voting_statistics": {
+    "average_participation": 0.85,
+    "total_votes_conducted": 12,
+    "last_vote_date": "2025-09-20"
+  },
+  "notes": [
+    "Add real player IDs when registering council members",
+    "Discord handles are optional but recommended",
+    "Update status to 'inactive' for alliance changes"
+  ]
+}

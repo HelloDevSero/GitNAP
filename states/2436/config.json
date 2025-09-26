@@ -1,0 +1,42 @@
+{
+  "state_number": 2436,
+  "nap_type": "NAP10",
+  "current_season": "Season 16",
+  "timezone": "UTC-8",
+  "languages": ["en", "es"],
+  "voting_rules": {
+    "quorum_percentage": 70,
+    "supermajority_threshold": 67,
+    "voting_window_hours": 72,
+    "emergency_voting_hours": 24,
+    "vote_weight_distribution": {
+      "ranks_1_5": 3,
+      "ranks_6_10": 2,
+      "ranks_11_15": 1
+    }
+  },
+  "council": {
+    "meeting_schedule": "Sundays 8PM UTC",
+    "voting_platform": "GitNAP",
+    "announcement_channels": ["discord", "github"],
+    "total_eligible_voters": 25,
+    "total_vote_weight": 52
+  },
+  "events": {
+    "fortress_rotation": "weekly_draft",
+    "castle_protocol": "rotation_based",
+    "bia_coordination": "points_maximization",
+    "svs_preparation": "resource_conservation"
+  },
+  "violation_system": {
+    "minor_warning_threshold": 3,
+    "major_violation_penalties": ["fortress_loss", "temporary_suspension"],
+    "severe_violation_consequences": ["nap_removal", "state_blacklist"],
+    "evidence_requirements": ["screenshots", "battle_logs", "witness_statements"]
+  },
+  "contacts": {
+    "discord_server": "Your Discord Server Link",
+    "github_repo": "https://github.com/HelloDevSero/GitNAP",
+    "emergency_contact": "Council R5s"
+  }
+}
