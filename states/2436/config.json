@@ -1,42 +1,56 @@
 {
   "state_number": 2436,
-  "nap_type": "NAP10",
+  "nap_type": "NAP",
+  "nap_description": "General Non-Aggression Pact among active alliances",
   "current_season": "Season 16",
   "timezone": "UTC-8",
   "languages": ["en", "es"],
   "voting_rules": {
-    "quorum_percentage": 70,
-    "supermajority_threshold": 67,
+    "quorum_percentage": 60,
+    "supermajority_threshold": 60,
     "voting_window_hours": 72,
     "emergency_voting_hours": 24,
     "vote_weight_distribution": {
-      "ranks_1_5": 3,
-      "ranks_6_10": 2,
-      "ranks_11_15": 1
+      "voting_method": "equal_alliance_representation",
+      "r5_weight": 2,
+      "r4_weight": 1,
+      "notes": "Each active alliance gets equal representation regardless of size"
     }
   },
   "council": {
     "meeting_schedule": "Sundays 8PM UTC",
     "voting_platform": "GitNAP",
     "announcement_channels": ["discord", "github"],
-    "total_eligible_voters": 25,
-    "total_vote_weight": 52
+    "composition": "all_active_alliances",
+    "voting_method": "equal_alliance_representation",
+    "minimum_participation": "simple_majority_of_active_alliances"
+  },
+  "nap_structure": {
+    "participation": "all_active_alliances",
+    "minimum_alliances_required": 3,
+    "alliance_requirements": {
+      "min_active_members": 25,
+      "r5_presence": true,
+      "regular_participation": true
+    },
+    "flexibility": "adaptable_to_state_population"
   },
   "events": {
-    "fortress_rotation": "weekly_draft",
-    "castle_protocol": "rotation_based",
+    "fortress_rotation": "consensus_based_allocation",
+    "castle_protocol": "coordination_focused",
     "bia_coordination": "points_maximization",
     "svs_preparation": "resource_conservation"
   },
   "violation_system": {
-    "minor_warning_threshold": 3,
-    "major_violation_penalties": ["fortress_loss", "temporary_suspension"],
-    "severe_violation_consequences": ["nap_removal", "state_blacklist"],
-    "evidence_requirements": ["screenshots", "battle_logs", "witness_statements"]
+    "minor_warning_threshold": 2,
+    "major_violation_penalties": ["fortress_priority_loss", "temporary_exclusion"],
+    "severe_violation_consequences": ["nap_removal", "alliance_blacklist"],
+    "evidence_requirements": ["screenshots", "battle_logs", "witness_statements"],
+    "appeal_process": "council_review_available"
   },
   "contacts": {
     "discord_server": "Your Discord Server Link",
     "github_repo": "https://github.com/HelloDevSero/GitNAP",
-    "emergency_contact": "Council R5s"
+    "emergency_contact": "Active R5s and Council Members"
   }
 }
